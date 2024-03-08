@@ -1,4 +1,4 @@
-module noticejob
+module github.com/douguohai/noticejob
 
 go 1.21
 

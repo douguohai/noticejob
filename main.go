@@ -1,7 +1,7 @@
 package main
 
 import (
-	"noticejob/cmd"
+	"github.com/douguohai/noticejob/cmd"
 )
 
 func main() {

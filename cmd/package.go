@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 	"github.com/blinkbean/dingtalk"
+	"github.com/douguohai/noticejob/entity"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"noticejob/entity"
 )
 
 var PackageMsgTemp = "**服务名称**: %s(打包提醒) \n\n **版本类型**: %s\n\n **打包版本**: %s\n\n  **最新提交记录**: \n - %s \n\n  **负载消息**:\n - 流水线打包完成，请在gitlab等待点击部署"

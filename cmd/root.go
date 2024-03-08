@@ -2,10 +2,10 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/douguohai/noticejob/entity"
 	"github.com/go-git/go-git/v5"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"noticejob/entity"
 	"os"
 	"time"
 )
