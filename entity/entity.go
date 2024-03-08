@@ -8,4 +8,5 @@ type DeployMsg struct {
 	LastCommitMessage string //最后提交消息
 	LastCommitTime    string //最后提交时间
 	AccessUrl         string //访问地址
+	MsgContent        string //消息体
 }
