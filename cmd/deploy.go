@@ -24,6 +24,7 @@ var deployCmd = &cobra.Command{
 			return
 		}
 		pushMsg.PackageRunEnv = packageRunEnv
+		pushMsg.ProjectName = projectName
 		pushMsg.PackageVersion = packageVersion
 		SendDeployMessage(pushMsg)
 	},
