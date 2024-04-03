@@ -8,6 +8,13 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var projectName string    //项目名称
+var packageVersion string //版本号
+var packageRunEnv string  //打包环境
+var gitPath string        //git 项目根目录所在
+var dingToken string      //钉钉 token
+var msgContent string     //普通消息体
+
 var MsgTemp = "**服务名称**: %s(消息提醒)\n\n **版本类型**: %s\n\n **打包版本**: %s\n\n  **消息内容**: \n  %s \n\n"
 
 var msgCmd = &cobra.Command{
